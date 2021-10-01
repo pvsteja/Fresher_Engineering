@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 
 const winnerSchema = new mongoose.Schema({
   year: {
-    type: Number,
+    type: String,
   },
   category: {
     type: String,
